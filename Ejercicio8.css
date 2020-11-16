@@ -1,0 +1,66 @@
+/*001*/
+body {
+    font-family: "Optima", sans-serif;
+    padding:1em;
+    font-size:1em;
+    background-color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+}
+/*001*/
+h1 {
+    border-radius: 1em;
+    color:rgb(255, 255, 255);
+    text-transform: uppercase;
+    padding: 120px 10px;
+    text-align: center; 
+    font-size: 400%;
+    background-color: rgb(15, 0, 70);
+    background-position: top right;
+}
+/*001*/
+h2 {
+    color:rgb(35, 11, 122);
+    font-size: 2em;
+    text-transform: uppercase;
+}
+/*001*/
+h3 {
+    color:rgb(50, 13, 187);
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+h4{
+    color:rgb(52, 0, 241);
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+/*001*/
+footer {
+    text-align: center;
+}
+section {
+    border-radius: 2em;
+    padding: 2em;
+    margin: 2em;
+    background-color: rgb(167, 158, 199);
+}
+/*011*/
+  a:link{
+      color:rgb(14, 61, 119);
+}
+/*011*/
+a:visited{
+    color:rgb(6, 49, 99);
+}
+/*001*/
+img {
+    border: 10px solid #5044bb;
+}
+/*001*/
+ul {
+    list-style-type: circle;
+}
+/*001*/
+li {
+    padding: 0.5em;
+}

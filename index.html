@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Tiempo en tres localidades</title>
+        <link rel="stylesheet" type="text/css" href="Ejercicio8.css" />
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="Ejercicio8.js"></script>
+    </head>
+    <body>
+        <h1>Previsión metereológica para tres localidades</h1>
+        <section>
+            <h2>Mérida</h2>
+            <p id = "merida">Aquí está toda la información meteorológica de Mérida</p>
+            <script>meteo1.cargarDatos()</script>
+        </section>
+        <section>
+            <h2>Salamanca</h2>
+            <p id = "salamanca">Aquí está toda la información meteorológica de Salamanca</p>
+            <script>meteo2.cargarDatos()</script>
+        </section>   
+        <section>
+            <h2>Astorga</h2>
+            <p id = "astorga">Aquí está toda la información meteorológica de Astorga</p>
+            <script>meteo3.cargarDatos()</script>
+        </section>  
+    </body>
+</html>
